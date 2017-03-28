@@ -1,0 +1,42 @@
+header {
+  padding: 15px 0%;
+}
+
+.header__logo {
+  float: left;
+  width: 50%;
+
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+.header__logo__title {
+  float: left;
+  margin-right: 50%;
+  font-family: 'ubuntumedium';
+  font-size: 30px;
+}
+
+.header__logo__text {
+  float: left;
+  font-family: 'ubuntulight';
+  letter-spacing: 3.5px;
+  font-size: 12px;
+}
+
+.header__icons {
+  float: right;
+  width: 50%;
+
+  img {
+    float: right;
+    margin: 18px 1% 0px 1%;
+    color: #cccccc;
+  }
+
+  .hidden {
+    display: none;
+  }
+}

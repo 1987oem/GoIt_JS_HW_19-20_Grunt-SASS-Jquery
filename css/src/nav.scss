@@ -1,0 +1,42 @@
+.menu {
+  background-color: #2a2d32;
+  margin: 10px 0% 35px 0%;
+}
+
+.menu__elements {
+  float: left;
+}
+
+.menu__elements__item {
+  float: left;
+  padding: 15px 30px;
+  font-family: 'ubuntu_condensedregular';
+  border-right: 1px solid black;
+}
+
+.menu__elements__item:hover {
+  background-color: #248cec;
+  color: #f4b60d;
+}
+
+.menu__elements__link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.menu__search {
+  float: right;
+  margin-right: 2%;
+}
+
+input {
+  background-color: #35383c;
+  border-color: black;
+  margin: 10px 0% 10px 0%;
+  color: white;
+  background-image: url('../img/search.png');
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  text-indent: 5px;
+}

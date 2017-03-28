@@ -1,0 +1,85 @@
+footer {
+  width: 100%;
+}
+
+.footer1 {
+  padding: 40px 11.82% 40px 11.82%;
+  background-color: #2a2d32;
+
+  div {
+    float: left;
+    width: 22.5%;
+
+    p a {
+      text-decoration: none;
+      color: #797a7c;
+    }
+
+    p a:hover {
+      color: #0187f4;
+    }
+  }
+}
+
+.footer1__column1,
+.footer1__column2,
+.footer1__column3 {
+  margin-right: 3.33%
+}
+
+.footer1__column1__title,
+.footer1__column2__title,
+.footer1__column3__title,
+.footer1__column4__title {
+  font-family: 'ubuntumedium';
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer1__column1__item,
+.footer1__column2__item,
+.footer1__column3__item,
+.footer1__column4__item {
+  border-bottom: 1px solid #393c40;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 10px 0%;
+}
+
+.footer1__column1__item:last-child,
+.footer1__column2__item:last-child,
+.footer1__column3__item:last-child,
+.footer1__column4__item:last-child {
+  border-bottom: none;
+}
+
+
+
+
+.footer2 {
+  padding: 10px 11.82% 10px 11.82%;
+  font-family: Arial;
+  font-size: 12px;
+  color: #6f7073;
+  background-color: #35383c;
+
+  img {
+    float: left;
+    margin: 0px 1% 0px 2%;
+  }
+
+  img:first-child {
+    margin-left: 0;
+  }
+
+  span {
+    float: left;
+    display: inline-block;
+    margin-top: 3px;
+  }
+
+  .trademark {
+    float: right;
+  }
+}

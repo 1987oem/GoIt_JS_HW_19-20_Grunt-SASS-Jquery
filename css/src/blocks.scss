@@ -1,0 +1,91 @@
+.blocks {
+    padding-top: 30px;
+}
+
+.block1,
+.block2,
+.block3 {
+    float: left;
+    width: 30%;
+    margin: 0px 1.5%;
+}
+
+.block1__number,
+.block2__number,
+.block3__number {
+    font-family: 'ubuntumedium';
+    font-size: 90px;
+    color: #e9e9ea;
+    float: left;
+    width: 25%;
+    margin-left: -6%;
+}
+
+.block1__data,
+.block2__data,
+.block3__data {
+    float: right;
+    width: 70%;
+
+}
+
+.block1__icon,
+.block1__title,
+.block1__text,
+.block1__link,
+.block2__icon,
+.block2__title,
+.block2__text,
+.block2__link,
+.block3__icon,
+.block3__title,
+.block3__text,
+.block3__link {
+    float: left;
+    width: 100%;
+}
+
+.block1__title,
+.block2__title,
+.block3__title {
+    font-family: 'ubuntumedium';
+    font-size: 20px;
+    margin: 10px 0%;
+}
+
+.block1__text,
+.block2__text,
+.block3__text {
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.block1__link,
+.block2__link,
+.block3__link {
+    margin: 15px 0%;
+}
+
+.block1__link img,
+.block2__link img,
+.block3__link img {
+    margin-left: 5px;
+}
+
+.arrow_selected {
+    display: none;
+}
+
+.arrow {
+    display: inline-block;;
+}
+
+.block1__link a,
+.block2__link a,
+.block3__link a {
+    font-family: 'ubuntumedium';
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,44 @@
+.slider {
+  margin: 15px 0%;
+  text-align: center;
+  position: relative;
+
+  .slider__controlpanel img {
+    width: auto;
+  }
+
+}
+
+.slider__mainpicture1,
+.slider__mainpicture2,
+.slider__mainpicture3 {
+  width: 100%;
+  height: 405.59px;
+}
+
+
+.slider__controlpanel {
+  position: absolute;
+  top: 378px;
+  left: 46.5%;
+  width: 20%;
+
+  div {
+    float: left;
+    margin: 0px 2%;
+  }
+}
+
+.slider__controlpanel__checkbox1 .slider__controlpanel__unchecked {
+  display: none;
+}
+
+.slider__controlpanel__checkbox2 .slider__controlpanel__checked,
+.slider__controlpanel__checkbox3 .slider__controlpanel__checked {
+  display: none;
+}
+
+.slider__mainpicture2,
+.slider__mainpicture3 {
+  display: none;
+}

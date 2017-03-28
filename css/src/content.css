@@ -1,0 +1,117 @@
+.content {
+  padding: 40px 11.82% 40px 11.82%;
+  background-color: #f7f7f7; }
+
+.news {
+  float: left;
+  width: 52%; }
+
+.news__title {
+  font-family: 'ubuntumedium';
+  font-size: 24px;
+  margin: 0px 0% 25px 5%; }
+
+.news__upper__picture,
+.news__lower__picture {
+  position: relative;
+  float: left; }
+
+.news__upper__picture__date1 {
+  position: absolute;
+  top: 52px;
+  left: -12%; }
+
+.news__upper__picture__date2 {
+  position: absolute;
+  top: 12px;
+  left: -12%; }
+
+.news__upper__title,
+.news__lower__title {
+  font-family: 'ubuntumedium';
+  font-size: 16px;
+  float: left;
+  margin: 5px 0% 10px 5%; }
+
+.news__upper__title a,
+.news__lower__title a {
+  text-decoration: none;
+  color: black; }
+
+.news__upper__title a:hover,
+.news__lower__title a:hover {
+  color: #0187f4; }
+
+.news__upper__note,
+.news__lower__note {
+  float: left;
+  font-family: Arial;
+  font-size: 13px;
+  margin: 5px 0% 20px 5%; }
+
+.news__upper__note span,
+.news__lower__note span {
+  color: #0187f4; }
+
+.news__upper__text,
+.news__lower__text {
+  float: left;
+  font-family: Arial;
+  font-size: 13px;
+  width: 65%;
+  margin: 5px 0% 25px 5%;
+  line-height: 20px; }
+
+.news__lower__picture__date1 {
+  position: absolute;
+  top: 52px;
+  left: -12%; }
+
+.news__lower__picture__date2 {
+  position: absolute;
+  top: 12px;
+  left: -12%; }
+
+.banners {
+  float: right;
+  width: 48%; }
+
+.banners__title {
+  font-family: 'ubuntumedium';
+  font-size: 24px;
+  margin-bottom: 25px; }
+
+.banners__panel li a {
+  list-style: none;
+  text-decoration: none;
+  color: black; }
+.banners__panel li p {
+  font-family: 'ubuntumedium';
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 3%;
+  background-color: white;
+  border: 1px solid silver;
+  margin: 5px 0%; }
+.banners__panel li .banners__plus {
+  display: none; }
+.banners__panel li .active {
+  background-color: #f4b60d;
+  display: inline-block; }
+.banners__panel li .disabled {
+  display: none; }
+.banners__panel li .color {
+  background-color: #f4b60d; }
+
+.banners__name {
+  width: 85%; }
+
+.banners__subpanel {
+  margin: 20px 0% 20px 8%;
+  display: none; }
+  .banners__subpanel li span {
+    line-height: 20px;
+    font-family: Arial;
+    font-size: 13px; }
+
+/*# sourceMappingURL=content.css.map */
